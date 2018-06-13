@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-
+//start用来判断指针的位置，避免重复比较两个字符
 int lengthOfLongestSubstring(char* s) {
     int len = strlen(s);
 	int count = 0;
